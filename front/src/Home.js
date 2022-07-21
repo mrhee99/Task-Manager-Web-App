@@ -11,10 +11,11 @@ class Home extends Component {
                 <AppNavbar/>
                 <Container fluid>
                     <Button color="link"><Link to="/Users">Users</Link></Button>
+                    <Button color="link"><Link to="/Tasks">Tasks</Link></Button>
                 </Container>
             </div>
         );
     }
 }
 
-export default Home;
+export default Home
