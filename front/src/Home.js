@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 import './App.css';
-import AppNavbar from './AppNavbar';
+import { Button, ButtonGroup, Container } from 'reactstrap';
 import { Link } from 'react-router-dom';
-import { Button, Container } from 'reactstrap';
 
 class Home extends Component {
     render() {
         return (
-            <div>
-                <AppNavbar/>
+            <div class="jumbotron">
                 <Container fluid>
-                    <Button color="link"><Link to="/Users">Users</Link></Button>
-                    <Button color="link"><Link to="/Tasks">Tasks</Link></Button>
+                <h1>Welcome to Management System!</h1>
+                <p>Manage your employees and action items based on various parameters.</p>
+                    <ButtonGroup>
+                        <Button size="lg" color="primary" tag={Link} to={"/Users"}>Users</Button>
+                        <Button size="lg" color="warning" tag={Link} to={"/Tasks"}>Tasks</Button>
+            
+                    </ButtonGroup>
+                    
                 </Container>
             </div>
         );
@@ -19,3 +23,4 @@ class Home extends Component {
 }
 
 export default Home
+
