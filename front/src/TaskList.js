@@ -54,7 +54,7 @@ class TaskList extends Component {
             <div>
                 <AppNavbar/>
                 <Container fluid>
-                    <div className="float-right">
+                    <div className="float-end">
                         
                         <Button color="success" tag={Link} to="/Tasks/new">Add Item</Button>
                     </div>

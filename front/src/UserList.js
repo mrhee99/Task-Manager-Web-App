@@ -52,7 +52,7 @@ class UserList extends Component {
             <div>
                 <AppNavbar/>
                 <Container fluid>
-                    <div className="float-right">
+                    <div className="float-end">
                         <Button color="success" tag={Link} to="/Users/new">Add User</Button>
                     </div>
                     <h3>Users</h3>

@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+h4.pos_center {
+  position: relative;
+  text-align: center;
+  font-weight: normal;
+  
+}
+
+h1.pos_center{
+  position: relative;
+  text-align: center;
+  
+
+}
+
+.button_example{
+  margin:0 auto;
+ 
+}
+
+.align {
+
+  text-align: right;
+}
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
